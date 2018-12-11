@@ -25,7 +25,7 @@ let speeds = {
 };
 
 function loadGame() {
-  let gameUrl = `/data/${category}.json`;
+  let gameUrl = `${window.location.href}/data/${category}.json`;
   fetch(gameUrl)
     .then(response => {
       if (!response.ok) {
