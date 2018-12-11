@@ -1,0 +1,42 @@
+{
+  "easy":
+  {
+    "question": "Countries in Central America",
+    "correctAnswers": [
+      "Belize",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Mexico",
+      "Nicaragua",
+      "Panama"
+    ],
+    "incorrectAnswers": [
+      "Cuba",
+      "Dominican Republic",
+      "Haiti",
+      "Argentina",
+      "Bolivia",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "French Guiana",
+      "Guyana",
+      "Paraguay",
+      "Peru",
+      "Suriname",
+      "Uruguay",
+      "Venezuela"
+    ]
+  },
+  "med":
+  {
+
+  },
+  "hard":
+  {
+
+  }
+}

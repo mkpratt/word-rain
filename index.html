@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Word Rain</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <script>
+      screen.orientation.lock('portrait');
+    </script>
+  </head>
+  <body>
+    <div id="viewContainer" class="start">
+      <div id="start">
+        <p>Category</p>
+        <div class="container">
+          <div class="btn btn-category">Geography</div>
+          <div class="btn btn-category">Technology</div>
+          <div class="btn btn-category">Entertainment</div>
+          <div class="btn btn-category">Art</div>
+        </div>
+        <p>Difficulty</p>
+        <div class="container">
+          <div class="btn btn-difficulty">Easy</div>
+          <div class="btn btn-difficulty">Medium</div>
+          <div class="btn btn-difficulty">Hard</div>
+          <div class="btn btn-difficulty">Impossible</div>
+        </div>
+        <div class="container">
+          <div class="btn-start">Start!</div>
+        </div>
+      </div>
+      <div id="ready"></div>
+      <div id="end">
+        <p>Score</p>
+        <div class="container">
+          <div>Correct:</div>
+          <div>Incorrect:</div>
+          <div>Stars:</div>
+        </div>
+      </div>
+    </div>
+    <canvas id="cnv"></canvas>
+    <script src="src/scripts/main.js" type="module"></script>
+  </body>
+</html>
